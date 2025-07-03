@@ -251,115 +251,142 @@
     </section>
     <!-- skill section end here -->
 
-    <!-- portfolio section starts here -->
-    <section class="portfolio" id="portfolio">
-      <div class="heading text-center pt-5">
-        <small>Creative Work</small>
-        <h3>Check My Portfolio</h3>
+<!-- portfolio section starts here -->
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Portfolio</h3>
+  </div>
+
+  <div id="myBtnContainer" class="text-center mt-4">
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="game">Game</button>
+    <button class="filter-item" data-filter="webapp">Web App</button>
+    <button class="filter-item" data-filter="website">Website</button>
+    <button class="filter-item" data-filter="mobile">Mobile App</button>
+  </div>
+
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      <!-- Game Project -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/aethera.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Aethera</h4>
+            <span class="badge bg-secondary badge-pill">C#</span>
+            <span class="badge bg-secondary badge-pill">Unity</span>
+            <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+            <a href="https://github.com/Fianka/aethera.git" class="link">Read More</a>
+          </div>
+        </div>
       </div>
 
-      <div id="myBtnContainer" class="text-center mt-4">
-        <!-- here we will create custom attribute using data- for filtering -->
-        <button class="filter-item" data-filter="all">All</button>
-        <button class="filter-item" data-filter="game">Game</button>
-        <button class="filter-item" data-filter="webapp">Web App</button>
-        <button class="filter-item" data-filter="website">Website</button>
-        <button class="filter-item" data-filter="mobile">Mobile App</button>
-      </div>
-      <div class="portfolio-body">
-        <div class="row justify-content-evenly px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/aethera.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Aethera</h4>
-                <span class="badge bg-secondary badge-pill">C#</span>
-                <span class="badge bg-secondary badge-pill">Unity</span>
-                <span class="badge bg-secondary badge-pill mb-2">Game</span
-                ><br />
-                <a href="https://github.com/Fianka/aethera.git" class="link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img
-                src="images/hasri.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body text-center">
-                <h4 class="card-title">Website Profile SMK Hasyim Asy'ari</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">Website Profile</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/dictionary.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Feluna</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-evenly mt-4 px-4">
-          <div class="post col-md-4 mobile all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/feluna.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Feluna App</h4>
-                <span class="badge bg-secondary badge-pill">Flutter</span>
-                <span class="badge bg-secondary badge-pill">Dart</span>
-                <span class="badge bg-secondary badge-pill mb-2">MobileApp</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/penyakit-hewan.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Prediksi Penyakit Hewan</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">Python</span>
-                <span class="badge bg-secondary badge-pill mb-2">Machine Learning</span
-                ><br />
-                <a href="https://github.com/Fianka/prediksi-penyakit-pada-hewan.git" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img
-                src="images/lang-translator.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body text-center">
-                <h4 class="card-title">Lang Translator</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">Web App</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
+      <!-- Website Project -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/hasri.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Website Profile SMK Hasyim Asy'ari</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Website Profile</span><br />
+            <a href="https://github.com/Fianka/website-Profile-SMK" class="read-more-btn link">Read More</a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- portfolio section ends here -->
+
+      <!-- WebApp Project -->
+      <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/web-feluna.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Feluna</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">WebApp</span><br />
+            <a href="#" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly mt-4 px-4">
+      <!-- Mobile App -->
+      <div class="post col-md-4 mobile all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/feluna.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Feluna App</h4>
+            <span class="badge bg-secondary badge-pill">Flutter</span>
+            <span class="badge bg-secondary badge-pill">Dart</span>
+            <span class="badge bg-secondary badge-pill mb-2">Mobile App</span><br />
+            <a href="https://github.com/Fianka/Feluna" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Netflix Figma Project - Mobile App -->
+      <div class="post col-md-4 mobile all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/Project_Netflix.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Figma Netflix</h4>
+            <span class="badge bg-secondary badge-pill">Figma</span>
+            <span class="badge bg-secondary badge-pill">UI/UX</span>
+            <span class="badge bg-secondary badge-pill mb-2">Mobile App</span><br />
+            <a href="https://www.figma.com/design/bJ81wT1u8S9kcBaN0iu5P1/Project-Fianka-NETFLIX?node-id=0-1&p=f&t=3upEoN4Pfdfd8oNJ-0" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website Project: Prediksi Penyakit -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/penyakit-hewan.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Prediksi Penyakit Hewan</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">Python</span>
+            <span class="badge bg-secondary badge-pill mb-2">Machine Learning</span><br />
+            <a href="https://github.com/Fianka/prediksi-penyakit-pada-hewan.git" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website Project: Bioskop -->
+      <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/bioskop.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Website Bioskop</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+            <a href="https://github.com/Fianka/website-bioskop" class="read-more-btn link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game Project: 3D Car -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/car.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">3D Car</h4>
+            <span class="badge bg-secondary badge-pill">C#</span>
+            <span class="badge bg-secondary badge-pill">Unity</span>
+            <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+            <a href="https://github.com/Fianka/3DCar" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- portfolio section ends here -->
+
 
 <!-- technologies section starts -->
 <section class="technologies mt-5 pt-5" id="technologies">
